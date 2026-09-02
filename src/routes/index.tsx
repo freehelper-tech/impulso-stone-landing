@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { ArrowRight, Check, Star } from "lucide-react";
-import chefRuthImg from "@/assets/chef-ruth.jpg";
+// import chefRuthImg from "@/assets/chef-ruth.jpg"; // embaixadora oculta temporariamente
 import depoCristiele from "@/assets/depo-cristiele.jpg";
 import depoRaiane from "@/assets/depo-raiane.jpg";
 import depoAdriana from "@/assets/depo-adriana.jpg";
@@ -188,6 +188,7 @@ function Stories() {
           </h2>
         </Reveal>
 
+        {/* Bloco da embaixadora oculto temporariamente (sem substituta no momento)
         <Reveal delay={120}>
           <div className="mt-14 overflow-hidden rounded-[2.5rem] bg-forest p-8 md:p-12">
             <div className="grid grid-cols-1 items-center gap-10 md:grid-cols-[2fr_3fr]">
@@ -218,10 +219,11 @@ function Stories() {
             </div>
           </div>
         </Reveal>
+        */}
 
         <Reveal>
           <p className="mt-16 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-            + histórias de transformação
+            histórias de transformação
           </p>
         </Reveal>
 
