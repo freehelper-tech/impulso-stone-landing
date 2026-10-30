@@ -66,7 +66,7 @@ function Hero() {
 }
 
 const stats = [
-  { n: "14k+", l: "empreendedoras já dentro", color: "text-brand" },
+  { n: "25k+", l: "empreendedoras já dentro", color: "text-brand" },
   { n: "40h+", l: "de conteúdo prático", color: "text-foreground" },
   { n: "100%", l: "gratuito, sem compromisso", color: "text-lilac" },
 ];
